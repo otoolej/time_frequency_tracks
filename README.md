@@ -1,9 +1,9 @@
-Extract time-frequency tracks from a time--frequency distribution
-=================================================================
+# Extract time-frequency tracks from a time–frequency distribution
 
-Matlab code to extract time--frequency tracks, which represent instantaneous frequency
-(IF) laws, from time--frequency distributions (TFDs).  Two methods presented, based on the
-work of Rankine et al. (2007) and McAulay--Quatieri (1986); details in [references](#references).
+
+Matlab code to extract time–frequency tracks, which represent instantaneous frequency
+(IF) laws, from time–frequency distributions (TFDs).  Two methods presented, based on the
+work of Rankine et al. (2007) and McAulay–Quatieri (1986); details in [references](#references).
 
 # requirements: 
 
@@ -68,7 +68,7 @@ xlim([0 N/Fs]);
 legend([hlr hmcq],{'LR method','MCQ method'});
 ```
 
-![Example: a.: time--frequency (TF) distribution of signal; b.: TF tracks using the Rankine et al. (2007) method (LR) and McAulay--Quatieri (1986) method (MCQ)](pics/fig_ifexample_fig.png)
+![Example: a.: time–frequency (TF) distribution of signal; b.: TF tracks using the Rankine et al. (2007) method (LR) and McAulay–Quatieri (1986) method (MCQ)](pics/fig_ifexample_fig.png)
 
 
 # test computer setup
@@ -130,7 +130,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    for neonatal EEG seizure detection based on a representation of pseudo-periodicity."
    Medical Engineering & Physics 34.4 (2012): 437-446.
 
-4. JM O’ Toole, B Boashash. "Time--frequency detection of slowly varying periodic signals
+4. JM O’ Toole, B Boashash. "Time–frequency detection of slowly varying periodic signals
    with harmonics: methods and performance evaluation." EURASIP Journal on Advances in
    Signal Processing, 2011(193797)
    
