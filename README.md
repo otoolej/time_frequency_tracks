@@ -8,8 +8,10 @@ work of Rankine et al. (2007) and McAulay–Quatieri (1986); details in [referen
 # requirements: 
 
 Matlab (R2013 or newer,
-[Mathworks website](http://www.mathworks.co.uk/products/matlab/)). Not tested with Octave
-but should work with minor tweaking.
+[Mathworks website](http://www.mathworks.co.uk/products/matlab/)). Also works in
+[Octave](https://www.gnu.org/software/octave/) (version 4 or newer) but slow in
+comparison to Matlab.
+
 
 
 # use 
@@ -68,14 +70,14 @@ xlim([0 N/Fs]);
 legend([hlr hmcq],{'LR method','MCQ method'});
 ```
 
-![Example: a.: time–frequency (TF) distribution of signal; b.: TF tracks using the Rankine et al. (2007) method (LR) and McAulay–Quatieri (1986) method (MCQ)](pics/fig_ifexample_fig.png)
+[Example: a.: time–frequency (TF) distribution of signal; b.: TF tracks using the Rankine et al. (2007) method (LR) and McAulay–Quatieri (1986) method (MCQ)](pics/fig_ifexample_fig.png)
 
 
 # test computer setup
 - hardware:  Intel(R) Xeon(R) CPU E5-1603 0 @ 2.80GHz; 8GB memory.
 - operating system: Ubuntu GNU/Linux x86_64 distribution (Wily Werewolf, 15.10), with Linux
   kernel 4.2.0-35-generic 
-- software: Matlab (R2013a)
+- software: Matlab (R2013a) and Octave (version 4.0.0)
 
 ---
 
