@@ -22,7 +22,7 @@ Example comparing both methods (code in <example\_IFest.m> but requires
 % load test signal
 %---------------------------------------------------------------------
 b=load('testsignal_10dB.mat');
-N=length(x); Ntime=512; 
+N=length(b.x); Ntime=512; 
 x=b.x; Fs=b.Fs;
 
 %---------------------------------------------------------------------
