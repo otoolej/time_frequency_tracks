@@ -70,7 +70,8 @@ xlim([0 N/Fs]);
 legend([hlr hmcq],{'LR method','MCQ method'});
 ```
 
-[Example: a.: time–frequency (TF) distribution of signal; b.: TF tracks using the Rankine et al. (2007) method (LR) and McAulay–Quatieri (1986) method (MCQ)](pics/fig_ifexample_fig.png)
+![](pics/fig_ifexample_fig.png)
+*Example: a.: time–frequency (TF) distribution of signal; b.: TF tracks using the Rankine et al. (2007) method (LR) and McAulay–Quatieri (1986) method (MCQ)*
 
 
 # test computer setup
